@@ -1,0 +1,22 @@
+.note-container {
+  position: absolute;
+  width: auto;
+  display: grid;
+  justify-items: center;
+}
+
+.pin-active {
+  cursor: -webkit-grab;
+  cursor: grab;
+  border-radius: 100%;
+  background-color: rgba(54, 148, 224, 0.202)
+}
+
+.pin {
+  cursor: pointer;
+}
+
+textarea {
+  border: 0.08rem solid #888;
+  padding: 1rem;
+}
